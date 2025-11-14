@@ -1,0 +1,24 @@
+{
+	"name": "AddFileTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "ProdPipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/csvfiles/Fact_Sales_1.csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/301b5dc3-6fb7-4961-b79c-d7438a3d425f/resourceGroups/rg-nil-practice-adf/providers/Microsoft.Storage/storageAccounts/datastorenilpractice",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

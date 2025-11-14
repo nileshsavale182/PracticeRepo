@@ -1,0 +1,9 @@
+{
+	"name": "adfnilpractice",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a8577b89-ed79-4f62-9bf2-5b6aa62fb07e",
+		"tenantId": "9bb1f84b-9daa-4e37-a497-3d04e11acfcb"
+	}
+}
